@@ -3,14 +3,14 @@ import axios from "axios";
 import { UserContext } from "./UserContext";
 
 export default function RegisterAndLoginForm() {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [isLoginOrRegister, setIsLoginOrRegister] = useState("register");
   const { setUsername: setLoggedInUsername, setId } = useContext(UserContext);
   async function handleSubmit(ev) {
     ev.preventDefault();
     const url = isLoginOrRegister === 'register' ? 'register' : 'login';
-    await axios.post(url, { username, password });
+    const {data} = await axios.post(url, {username,password});
     setLoggedInUsername(username);
     setId(data.id);
   }

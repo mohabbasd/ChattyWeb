@@ -1,0 +1,30 @@
+{
+    "workbench.colorCustomizations": {
+        
+        //bright part
+        "terminal.ansiBrightBlack": "#62686c",
+        "terminal.ansiBrightRed": "#ff54b0",
+        "terminal.ansiBrightBlue": "#378dfe",
+        "terminal.ansiBrightCyan": "#ff69d7",
+        "terminal.ansiBrightGreen": "#73ffd8",
+        "terminal.ansiBrightMagenta": "#ae81ff",
+        "terminal.ansiBrightWhite": "#5ffbbe",
+        "terminal.ansiBrightYellow": "#fcf4ad",
+        //normal part
+        "terminal.ansiBlack": "#0b3b61",
+        "terminal.ansiBlue": "#1376f8",
+        "terminal.ansiCyan": "#ff5dd4",
+        "terminal.ansiGreen": "#52ffcf",
+        "terminal.ansiMagenta": "#c792ea",
+        "terminal.ansiRed": "#ff3a3a",
+        "terminal.ansiWhite": "#15fca2",
+        "terminal.ansiYellow": "#fff383",
+        "terminalCursor.background": "#38ff9c",
+        "terminalCursor.foreground": "#38ff9c",
+        "terminal.foreground": "#7caae2",
+        "terminal.background": "#010b17"
+    },
+    "terminal.integrated.cursorStyle" : "underline",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+}
